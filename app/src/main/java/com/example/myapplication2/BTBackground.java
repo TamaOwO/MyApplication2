@@ -2,20 +2,15 @@ package com.example.myapplication2;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.widget.LinearLayout;
 import android.widget.Switch;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class BTBackground extends AppCompatActivity {
 
     Switch switchBackgournd;
     int cur;
@@ -58,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 cur = last;
                 bg.setBackgroundResource(arrayList.get(last));
             }
-
         });
     }
 }
