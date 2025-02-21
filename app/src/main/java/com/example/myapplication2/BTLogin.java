@@ -22,10 +22,5 @@ public class BTLogin extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        ConstraintLayout bg = (ConstraintLayout)
-                findViewById(R.id.main);
-        bg.setBackgroundColor(Color.BLUE);
-        bg.setBackgroundResource(R.drawable.top_background2);
     }
 }
